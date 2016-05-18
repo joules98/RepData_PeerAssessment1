@@ -117,15 +117,18 @@ $(document).ready(function () {
 
 <h1 class="title toc-ignore">ReproResearchProj1</h1>
 <h4 class="author"><em>Julie Estes</em></h4>
-<h4 class="date"><em>Sunday, May 15, 2016</em></h4>
+<h4 class="date"><em>Tuesday, May 17, 2016</em></h4>
 
 </div>
 
 
-<p>This is an explanation of the document.</p>
+<div id="introduction" class="section level2">
+<h2>Introduction</h2>
+<p>This assignment makes use of data from a personal activity monitoring device. This device collects data at 5 minute intervals throughout the day. The data consists of two months of data from an anonymous individual collected during the months of October and November, 2012 and include the number of steps taken in 5 minute intervals each day.</p>
+</div>
 <div id="loading-the-data-and-libraries" class="section level2">
 <h2>Loading the Data and Libraries</h2>
-<p>First, load the data into your working directory and have a quick look at the structure.</p>
+<p>To begin, first load the data into your working directory and have a quick look at the structure.</p>
 <pre class="r"><code>actDat &lt;- read.csv(&quot;activity.csv&quot;, header=TRUE)
 head(actDat)</code></pre>
 <pre><code>##   steps       date interval

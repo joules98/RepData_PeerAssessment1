@@ -1,9 +1,17 @@
-This is an explanation of the document.
+ReproResearchProj1
+================
+Julie Estes
+Tuesday, May 17, 2016
+
+Introduction
+------------
+
+This assignment makes use of data from a personal activity monitoring device. This device collects data at 5 minute intervals throughout the day. The data consists of two months of data from an anonymous individual collected during the months of October and November, 2012 and include the number of steps taken in 5 minute intervals each day.
 
 Loading the Data and Libraries
 ------------------------------
 
-First, load the data into your working directory and have a quick look at the structure.
+To begin, first load the data into your working directory and have a quick look at the structure.
 
 ``` r
 actDat <- read.csv("activity.csv", header=TRUE)
