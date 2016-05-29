@@ -2,7 +2,9 @@
 title: "ReproResearchProj1"
 author: "Julie Estes"
 date: "Tuesday, May 29, 2016"
-output:  github_document;html_document
+output:  
+        html_document: 
+                keep_md: true
 ---
 
 ##Introduction
