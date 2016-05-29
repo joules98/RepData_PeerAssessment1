@@ -1,7 +1,7 @@
 ---
 title: "ReproResearchProj1"
 author: "Julie Estes"
-date: "Tuesday, May 17, 2016"
+date: "Tuesday, May 29, 2016"
 output:  github_document;html_document
 ---
 
